@@ -1,0 +1,84 @@
+
+body {  
+    font-family: Arial, Verdana, sans-serif;  
+    color: #111111;
+    
+}
+no-repeat top right;
+table {  
+    width: 600px;
+}
+th, td { 
+  padding: 7px 10px 10px 10px;
+}
+th {  
+    text-transform: uppercase;  
+    letter-spacing: 0.1em;  
+    font-size: 90%;  
+    border-bottom: 2px solid #111111; 
+     border-top: 1px solid #999;  text-align: 
+     left;}tr.even {  background-color: #efefef;
+    }
+    tr:hover { 
+         background-color: #c3e6e5;
+        }
+        .money {  
+            text-align: right;
+        }
+        #header,#footer{
+            background-color: #50da4b;
+            color: #fff;
+            padding: 1px;
+            margin: -8px;
+        }
+        img{
+            border: black 3px solid;
+        }
+       .sections{
+           display: inline;
+           padding: 5px;
+       }
+       .left{
+        float: left;
+        margin-right: 10px;
+        width: 210px;
+        height: 180px;
+       }
+       .center{
+        display: block;
+        margin: 0px auto;
+        width: 200px;
+        height: 220px;
+       }       
+       input#email{
+           background-image: url("images/14.jpg");
+           background-repeat: no-repeat;
+           background-position: 4px 3px;   
+       }
+       input#first,#last{
+        background-image: url("images/15.jpg");  
+        background-repeat: no-repeat;
+        background-position: 4px 1px;
+       }
+       input#home{
+        background-image: url("images/13.jpg");
+        background-repeat: no-repeat;
+        background-position: 4px 1px;   
+    }
+    input#phone{
+        background-image: url("images/12.jpg");
+        background-repeat: no-repeat;
+        background-position: 4px 1px;   
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+        border: none;
+    }
+    .whatsapp{
+        width: 10%;
+        height: 10%;
+    }
+    input{
+        background-color: rgb(206, 203, 203);
+    }
